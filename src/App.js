@@ -3,6 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div>nav</div>
       <header className="App-header">
         <h1>
           We-pixels  
@@ -11,7 +12,8 @@ function App() {
           coming soon 
         </p>
       </header>
-      <footer className="App-footer"><span><b>Email: </b>wepixels.co@gmail.com </span><span><b>ABN: </b>56&nbsp;627&nbsp;118&nbsp;665 </span></footer>
+    
+      <footer className="App-footer">© 2018 - 2021 by We-pixels pty ltd</footer>
     </div>
   );
 }
