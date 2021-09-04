@@ -1,19 +1,21 @@
-import './App.css';
+import React from 'react';
+import Nav from '../src/components/Nav';
+import Footer from '../src/components/Footer';
+import About from '../src/components/About';
+import Service from '../src/components/Service';
+import Contact from '../src/components/Contact';
+import Home from '../src/components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          We-pixels  
-        </h1>
-        <p>
-          coming soon 
-        </p>
-      </header>
-    
-      <footer className="App-footer">© 2018 - 2021 by We-pixels</footer>
-    </div>
+    <>
+      <Nav />
+      <Home />
+      <Service />
+      <About />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
