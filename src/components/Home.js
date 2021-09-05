@@ -13,6 +13,10 @@ const Home = () => {
 		<Wrapper id='home'>
 			<Container>
 				<h2>Home</h2>
+				<p>
+					We-pixels in Sydney specialising in web design, web development, web
+					solution and more.
+				</p>
 			</Container>
 		</Wrapper>
 	);

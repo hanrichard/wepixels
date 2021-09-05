@@ -12,7 +12,11 @@ const About = () => {
 	return (
 		<Wrapper id='about'>
 			<Container>
-				<h2>About</h2>
+				<h2>About us</h2>
+				<p>
+					At We-pixels, we create designs and develop the best responsive
+					websites for businesses with different budgets and needs.
+				</p>
 			</Container>
 		</Wrapper>
 	);

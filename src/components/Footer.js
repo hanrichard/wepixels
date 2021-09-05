@@ -10,10 +10,11 @@ const Wrapper = styled.div`
 `;
 
 const Footer = () => {
+	const year = new Date().getFullYear();
 	return (
 		<Wrapper>
 			<Container>
-				<footer>© 2021 We-pixels Pty Ltd, ABN 56 627 118 665</footer>
+				<footer>© {year} We-pixels Pty Ltd, ABN 56 627 118 665</footer>
 			</Container>
 		</Wrapper>
 	);

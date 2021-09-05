@@ -12,7 +12,17 @@ const Contact = () => {
 	return (
 		<Wrapper id='contact'>
 			<Container>
-				<h2>Contact</h2>
+				<h2>Get in touch, let's chat!</h2>
+				<section>
+					<p>
+						<b>Phone: </b>
+						<span>(02) 7906 8325</span>
+					</p>
+					<p>
+						<b>Email: </b>
+						<span>info@we-pixels.com.au</span>
+					</p>
+				</section>
 			</Container>
 		</Wrapper>
 	);

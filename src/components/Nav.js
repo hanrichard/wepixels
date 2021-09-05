@@ -5,7 +5,7 @@ import { Container } from "@material-ui/core";
 const Logo = styled.a`
 	color: #252f3f;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 20px;
 `;
 
 const NavWrapper = styled.div`
