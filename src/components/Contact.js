@@ -12,7 +12,7 @@ const Contact = () => {
 	return (
 		<Wrapper id='contact'>
 			<Container>
-				<h2>Get in touch, let's chat!</h2>
+				<h2>Get in touch, we'd love to chat!</h2>
 				<section>
 					<p>
 						<b>Phone: </b>

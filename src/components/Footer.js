@@ -14,7 +14,7 @@ const Footer = () => {
 	return (
 		<Wrapper>
 			<Container>
-				<footer>© {year} We-pixels Pty Ltd, ABN 56 627 118 665</footer>
+				<footer>© {year} We-pixels Pty Ltd</footer>
 			</Container>
 		</Wrapper>
 	);
