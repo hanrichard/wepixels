@@ -10,16 +10,20 @@ const Logo = styled.a`
 
 const NavWrapper = styled.div`
 	background-color: #fff;
-	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	color: #252f3f;
 	padding: 20px 0;
+
+	@media only screen and (min-width: 600px) {
+		display: flex;
+	}
 `;
 
 const NavList = styled.ul`
 	display: flex;
 	list-style: none;
+	padding: 0;
 `;
 const NavItem = styled.li`
 	margin-right: 20px;
